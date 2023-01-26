@@ -1,0 +1,40 @@
+{
+	"name": "use-debounce-rv",
+	"version": "2.0.4",
+	"description": "A hook which is wait until something is happening then execute provided callback",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "rollup -c"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/raviverma1810/use-debounce.git"
+	},
+	"keywords": [
+		"debounce",
+		"use-debounce",
+		"wait",
+		"watching",
+		"typng",
+		"use-debounce-rv",
+		"ravi verma"
+	],
+	"author": "Ravi Verma (9039005414)",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/raviverma1810/use-debounce/issues"
+	},
+	"homepage": "https://github.com/raviverma1810/use-debounce#readme",
+	"devDependencies": {
+		"@babel/cli": "^7.20.7",
+		"@babel/core": "^7.20.12",
+		"@babel/preset-env": "^7.20.2",
+		"@babel/preset-react": "^7.18.6",
+		"@rollup/plugin-babel": "^6.0.3",
+		"rollup": "^1.32.1",
+		"rollup-plugin-commonjs": "^10.1.0",
+		"rollup-plugin-uglify": "^6.0.4"
+	}
+}
