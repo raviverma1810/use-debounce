@@ -1,6 +1,8 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
+/src/use-debounce/node_modules
+/src/use-debounce/src
 /node_modules
 /.pnp
 .pnp.js
@@ -10,6 +12,7 @@
 
 # production
 /build
+/use-debounce
 
 # misc
 .DS_Store
@@ -17,7 +20,11 @@
 .env.development.local
 .env.test.local
 .env.production.local
+.npmignore
 
+rollup.config.js
+src/use-debounce/package-lock.json*
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+package-lock.json*
